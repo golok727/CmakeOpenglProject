@@ -4,7 +4,8 @@ project(MyProject)
 
 set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
-set(BIN_DIR ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+# set(BIN_DIR ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+set(BIN_DIR ${CMAKE_BINARY_DIR}/bin)
 
 set(VENDOR_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src/vendor)
 

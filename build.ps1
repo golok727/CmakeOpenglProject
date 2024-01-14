@@ -19,8 +19,7 @@ elseif ($command -eq "run") {
     ./bin/main
 }
 elseif ($command -eq "clean") {
-  Remove-Item -force -recurse ./build
-  Remove-Item -force -recurse ./bin
+    Remove-Item -force -recurse ./build
 } 
 elseif ($command -eq "make-run") {
     mingw32-make --directory ./build
@@ -30,7 +29,7 @@ elseif ($command -eq "make-run") {
         Write-Host "Running Build.."
         Write-Host "-----------------------------------------"
         Write-Host
-        ./bin/main
+        ./build/bin/main
     }
     else {
         Write-Host "Can't run build failed"
