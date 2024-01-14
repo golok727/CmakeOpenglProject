@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Project",
+			"command": "cmake",
+			"args": ["-G", "MinGW Makefiles", "-B", "./build"]
+		}
+	]
+}
